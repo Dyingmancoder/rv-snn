@@ -1,7 +1,6 @@
-# .gitignore
-.gitignore
 ### Project Specific stuff
 test_run_dir/*
+.bsp
 ### XilinxISE template
 # intermediate build files
 *.bgn
@@ -349,4 +348,5 @@ hs_err_pid*
 fpga/.Xil/
 
 # vscode temp file
-.vscode
+.vscode/
+.bloop
